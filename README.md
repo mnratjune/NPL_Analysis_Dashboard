@@ -1,76 +1,46 @@
-📊 Overall Summary of the NPL Analysis Dashboard
-🎯 Objective
-To identify key customer characteristics and risk factors that contribute to Non-Performing Loans (NPLs) from a total population of 10,000 customers.
+📊 **NPL Analysis Dashboard – Summary**
+This project presents a Power BI dashboard analyzing customer data to identify risk factors associated with Non-Performing Loans (NPLs). Out of 10,000 customers, 1,192 (or 12%) are classified as NPL.
 
-✅ Key Metrics
-Total Customers: 10,000
+🔍 **Key Insights**
+🧑‍💼 **Occupation**
+- Most NPL customers are Salaried Employees (41.86%) and Freelancers (40.69%).
 
-NPL Customers: 1,192 (≈12%)
+- Occupation distribution among NPLs is consistent with the overall customer base.
 
-Non-NPL Customers: 8,808
+💰 **Income Category**
+- Low-income customers show the highest NPL rate (15%), and they make up the vast majority of NPL cases.
 
-🔍 Insights by Category
-1. Occupation
-Occupation	% of All Customers	% NPL (from first dashboard)
-Salary	39.6%	41.86%
-Freelance	40.8%	40.69%
-Self-Employed	19.6%	17.45%
+- Mid- and high-income groups show significantly lower NPL risk.
 
-➡️ Insight: NPL customers are distributed similarly to the overall base. However, Salary and Freelance workers dominate both total customer base and NPL segment.
+📅 **Age Range**
+- Customers aged 21–30 represent the largest NPL group, with a 14% NPL rate.
 
-2. Income Category
-Income Level	No. of Customers	% NPL	NPL Rate Insight
-Low Income	7,342	15%	Highest NPL risk group
-Mid Income	2,449	4%	Moderate risk
-High Income	209	0%	Very low risk
+- NPL risk decreases significantly in customers aged 41 and above.
 
-➡️ Insight: Low-income customers are at the highest NPL risk (100% of NPL group in the first dashboard were low income). This confirms income level is a strong risk predictor.
+🌍 **Region**
+- Eastern, Northern, and Southern regions show the highest NPL rates (≈20%).
 
-3. Age Range
-Age Range	NPL Rate	Key Risk Group
-21–30	14%	✅ High Risk (58% of NPLs)
-31–40	10%	Medium Risk
-11–20	15%	Small but risky
-41+	<5%	Low Risk
+- Bangkok customers show the lowest NPL risk at 5%.
 
-➡️ Insight: NPL is highest in young customers aged 21–30, consistent with first dashboard. Young adults are a high-risk group.
+🚗 **Car Type & Segment**
+- Used SUVs are the most common vehicle type among NPL customers.
 
-4. Region
-Region	% NPL	Total NPL Customers	Risk
-East	20%	431	🔺 Highest Risk
-North	19%	159	High
-South	20%	221	High
-BKK	5%	381	Low
+- Used cars in general pose higher credit risk compared to new cars.
 
-➡️ Insight: Customers from East, North, and South have higher NPL rates (≈20%), while Bangkok has the lowest risk.
+💍 **Marital Status**
+- Single customers show a slightly higher NPL rate (13%) than married customers (11%).
 
-5. Car Type & Segment
-Car Segment	Notable NPL Pattern
-SUV	Highest NPL volume (Used SUV in particular)
-Used Cars	Higher NPLs than New Cars
-SuperCar	Lower representation in NPLs
-Truck	Less common
+🧠 **Conclusion**
+High-risk NPL profiles are commonly:
 
-➡️ Insight: Used SUVs are the most common vehicle type among NPLs.
+- Aged 21–30
 
-6. Marital Status
-Status	NPL Rate
-Married	11%
-Single	13%
+- Low-income individuals
 
-➡️ Insight: Slightly higher NPL rate among single customers, but both are significant contributors.
+- Single
 
-💡 Conclusion
-The dashboards provide a clear profile of high-risk NPL customers:
+- Residing in East, North, or South regions
 
-Young (21–30 years old)
+- Working as Salaried Employees or Freelancers
 
-Low-income earners
-
-Single
-
-Residing in East or North regions
-
-Using or purchasing used SUVs
-
-Working as salaried employees or freelancers
+- Purchasing or owning Used SUVs
